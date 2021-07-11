@@ -1,0 +1,31 @@
+-- --------------------------------------------------------
+-- SYANTAX
+
+-- DELIMITER $$
+--
+-- CREATE TRIGGER trigger_name
+--      <trigger_time> <trigger_event> ON <table_name> FOR EACH ROW
+--      BEGIN
+--      END;
+-- $$
+--
+-- DELIMITER ;
+--
+
+
+-- <trigger_time>  <trigger_event> ON  <table_name> FOR EACH ROW
+-- |     BEFORE   |         INSERT
+-- |     AFTER    |         UPDATE
+-- |              |         DELETE
+--
+-- -- ---------------------------------------------------------------
+-- Content :
+-- -- ---------------------------------------------------------------
+-- Prevent
+-- -- ---------------------------------------------------------------
+-- Creating Logger Trigger
+-- -- ---------------------------------------------------------------
+-- Remove the trigger
+-- -- ---------------------------------------------------------------
+-- WARNING
+-- somethime work as stealth bug's which are difficults to bugs

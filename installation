@@ -1,0 +1,9 @@
+mysql -u root -p 
+1234
+
+// For connecting to work bench to mysql
+
+use mysql ;
+- UPDATE user SET plugin='mysql_native_password' WHERE User='root';
+- UPDATE mysql.user set authentication_string=PASSWORD('rootpasswordgiven') where user='root';
+
